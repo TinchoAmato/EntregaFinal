@@ -1,0 +1,30 @@
+.header-inicio{
+    height: 5vh;
+    background-color: rgba(54, 45, 89, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    height: 5vh;
+    background-color: rgba(54, 45, 89, .5);
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+    }
+    li a{
+        color: #333 ;
+        font-weight: 600 ;
+        text-decoration: none ;
+    }
+}

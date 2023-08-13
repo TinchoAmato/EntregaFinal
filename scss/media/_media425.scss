@@ -1,0 +1,28 @@
+@media (max-width: 425px){
+    #options-navbar{
+        flex-direction: column;
+    }
+
+    nav{
+        height: 25vh;
+        text-align: center;
+    }
+    .main-formulario{
+        height: 68vh;
+    }
+
+    .flex-ficha{
+        flex-direction: column;
+        height: 60vh;
+    }
+
+    .bg-ficha{
+        width: 100%;
+        height: 50%;
+    }
+
+    .bg-top{
+        width: 100%;
+        height: 50%;
+    }
+}

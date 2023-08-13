@@ -1,0 +1,82 @@
+
+.flex-tops{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    padding: 2vh 0;
+}
+
+.flex-ficha{
+    display: flex;
+    width: 50%;
+    height: 40vh;
+}
+
+.bg-top{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50%;
+    -webkit-text-stroke: .0005rem black;
+}
+
+.bg-top h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 3rem;
+}
+
+.bg-top h2:hover{
+    transform: scale(1.1);
+    transition: all .1s;
+}
+
+.minecraft{
+    color: #C57900;
+    background-image: url(../assets/top/Minecraft.png);
+}
+
+.gta{
+    color: #A0A0A0;
+    background-image: url(../assets/top/GTA.png);
+}
+
+.rdr{
+    color: #FFE529;
+    background-image: url(../assets/top/RedDead.png);
+}
+
+.bg-ficha{
+    background-color: rgba(0, 0, 0, .6);
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-ficha ul{
+    height: 80%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bg-ficha ul li:hover{
+    transform: scale(1.1);
+}
+
+.bg-ficha h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    font-size: 3rem;
+}

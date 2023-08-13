@@ -1,0 +1,33 @@
+@media (max-width: 1200px) {
+    .main-inicio{
+        justify-content: space-evenly;
+    }
+    
+    .selectores-inicio{
+        display: block;
+        div{
+            a:nth-child(1) .btn-inicio{
+                border-radius: 1.875rem 3.125rem;
+            }
+            a:nth-child(2) .btn-inicio{
+                border-radius: 3.125rem 1.875rem;
+            }
+        }
+    }
+
+    .primer-inicio{
+        margin-bottom: 5vh;
+    }
+    
+    .titulo-inicio{
+        width: 70%;
+    }
+
+    h1{
+        font-size: 5rem;
+    }
+    
+    .flex-ficha{
+        width: 70%;
+    }
+}

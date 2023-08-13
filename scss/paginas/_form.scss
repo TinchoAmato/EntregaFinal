@@ -1,0 +1,26 @@
+form button{
+    width: 8.1944rem;
+    height: 3.6975rem;
+    border-style: none;
+    border-radius: 1.2rem;
+    background-color: rgba(53, 48, 191, .8);
+}
+
+.main-formulario{
+    height: 90vh;
+}
+
+.flex-column{
+    display: flex;
+    padding-top: 2rem;
+}
+
+.center{
+    align-self: center;
+    margin-top: 2rem;
+}
+
+.mt-5{
+    margin-top: 0 !important;
+    padding: 5vh;
+}

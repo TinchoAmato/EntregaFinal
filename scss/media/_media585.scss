@@ -1,0 +1,33 @@
+@media (max-width: 585px){
+    nav{
+        flex-direction: column;
+        width: 100vw;
+        height: 8vh;
+        justify-content: center;
+    }
+
+    #game-navbar{
+        font-size: 1.5rem;
+    }
+
+    .main-formulario{
+        height: 85vh;
+    }
+
+    #footers{
+        height: 7vh;
+        font-size: .95rem;
+    }
+
+    .flex-ficha{
+        width: 100%;
+    }
+
+    .bg-top h2{
+        font-size: 2.5rem;
+    }
+
+    .bg-ficha ul{
+        font-size: 1rem;
+    }
+}
